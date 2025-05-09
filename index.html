@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Warframe Page</title>
+  </head>
+  <body class="bg-[#0a0a0a] text-white font-sans">
+    <header
+      class="h-[80vh] flex flex-col items-center bg-gradient-to-b from-black to-[#121212]"
+    >
+      <nav class="flex justify-center p-5 w-full max-w-7xl">
+        <ul class="flex gap-10">
+          <li>
+            <a
+              class="font-bold text-white hover:text-[#00bcd4]"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="font-bold text-white hover:text-[#00bcd4]"
+              href="sobre.html"
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a class="font-bold text-white hover:text-[#00bcd4]" href="#"
+              >Baixar</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <section
+        class="flex flex-col items-center justify-center px-4 text-center"
+      >
+        <h1 class="text-5xl font-bold mb-4 md:text-xs">
+          A guerra começou. Está pronto, Tenno?
+        </h1>
+        <p class="text-[#b0bec5] max-w-2xl text-lg mb-6">
+          Embarque em uma experiência de combate em ritmo acelerado, armas
+          futuristas e uma galáxia cheia de segredos. Warframe é gratuito — e
+          viciante.
+        </p>
+
+        <div
+          class="w-full max-w-3xl aspect-video shadow-2xl rounded-lg overflow-hidden"
+        >
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/MsbL8lFHrZI"
+            title="Trailer Warframe"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </header>
+
+    <main class="bg-[#121212] flex flex-col items-center py-16 px-4">
+      <div class="flex flex-wrap justify-center gap-10 -mt-16">
+        <div
+          class="flex flex-col items-center p-6 bg-[#1e1e1e] w-80 rounded-xl shadow-md hover:scale-110 transition-transform duration-300"
+        >
+          <h2 class="text-xl font-bold text-[#00bcd4]">
+            Tiro em Terceira Pessoa
+          </h2>
+          <p class="text-[#cfd8dc] text-center mt-2">
+            O combate é focado em armas de fogo, armas brancas e habilidades
+            especiais, tudo em perspectiva de terceira pessoa.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center p-6 bg-[#1e1e1e] w-80 rounded-xl shadow-md hover:scale-110 transition-transform duration-300"
+        >
+          <h2 class="text-xl font-bold text-[#00bcd4]">RPG de Ação (ARPG)</h2>
+          <p class="text-[#cfd8dc] text-center mt-2">
+            Possui progressão de personagens, customização de builds, farm de
+            equipamentos e habilidades únicas.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center p-6 bg-[#1e1e1e] w-80 rounded-xl shadow-md hover:scale-110 transition-transform duration-300"
+        >
+          <h2 class="text-xl font-bold text-[#00bcd4]">
+            Jogo Cooperativo Online
+          </h2>
+          <p class="text-[#cfd8dc] text-center mt-2">
+            Missões em equipe (até 4 jogadores), com chefes, eventos e dungeons
+            intensas.
+          </p>
+        </div>
+      </div>
+
+      <article
+        class="flex flex-col md:flex-row items-center gap-10 mt-20 max-w-6xl"
+      >
+        <div class="flex-1 text-white">
+          <h2 class="text-3xl font-bold mb-4">
+            Prepare-se para a Guerra dos Sistemas
+          </h2>
+          <p class="text-[#cfd8dc] leading-relaxed">
+            Warframe é mais do que um jogo — é uma jornada brutal e estilosa por
+            um universo dominado por facções implacáveis. Assuma o controle dos
+            Tenno, guerreiros lendários equipados com armaduras biomecânicas e
+            habilidades únicas. Evolua, lute, explore e monte seu arsenal
+            definitivo. Seja solo ou em esquadrão, cada missão é uma chance de
+            mostrar sua força.
+          </p>
+        </div>
+        <img
+          src="imgs/warframe-metacard.png"
+          alt="Warframe Art"
+          class="w-[400px] rounded-lg shadow-xl"
+        />
+      </article>
+
+      <a
+        href=""
+        class="bg-[#00bcd4] rounded-lg px-20 py-3 font-bold saiba-mais-sobre hover:scale-110 transition-transform duration-300 mt-20"
+        >Saiba mais sobre</a
+      >
+    </main>
+  </body>
+  <footer class="flex justify-center p-5">
+    <p class="font-mono">Code & Design por JeanPersil</p>
+  </footer>
+</html>
