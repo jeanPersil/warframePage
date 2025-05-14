@@ -3,39 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="style.css" />
     <title>Warframe Page</title>
   </head>
   <body>
-    <section class="hidden">
-      <h2>título 1</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-        sint recusandae optio dolorem laborum exercitationem.
-      </p>
-    </section>
+    <video autoplay muted loop playsinline class="video-bg">
+      <source src="imgs/fundo.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos em HTML5.
+    </video>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li>
+            <a href="https://store.steampowered.com/agecheck/app/230410/"
+              >Baixar</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="hidden">
-      <h2>título 2</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-        sint recusandae optio dolorem laborum exercitationem.
-      </p>
-    </section>
+    <main>
+      <section class="hero">
+        <h1>Seu Legado Começa <br />Agora.</h1>
+        <p>
+          Aventure-se com seu Warframe, lute contra facções implacáveis e domine
+          o campo de batalha com habilidades únicas e combate ágil.
+        </p>
+        <a href="https://www.warframe.com/landing" class="btn">Jogar Agora</a>
+        <p class="plataformas">Disponível para Windows • PS5 • Xbox</p>
+      </section>
+    </main>
 
-    <section class="hidden">
-      <h2>título 3</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-        sint recusandae optio dolorem laborum exercitationem.
-      </p>
-    </section>
-
-    <section class="hidden">
-      <img src="imgs/logo.png" alt="Logo" style="max-width: 300px" />
-    </section>
-
-    <script src="script.js"></script>
+    <footer>
+      <p>Code & Design por JeanPersil</p>
+    </footer>
   </body>
 </html>
