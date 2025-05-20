@@ -11,15 +11,16 @@ Este projeto tem como objetivo praticar diferentes abordagens de estilização w
 
 ## Tecnologias Utilizadas
 
-- HTML5  
-- Tailwind CSS (para a página inicial)  
-- CSS tradicional (para a página sobre)  
-
+- HTML5
+- Tailwind CSS (para a página inicial)
+- CSS tradicional (para a página sobre)
 
 ## 🖼️ Capturas de Tela
 
 ### Pagina inicial
-<img src="assets/tela-login.png" alt="Tela de Login" width="600"/>
+
+<img src="imgs/telaInicio.png" alt="Tela de inicio" width="600"/>
 
 ### Pagina Sobre
-<img src="assets/tela-adicionar.png" alt="Adicionar Produto" width="600"/>
+
+<img src="imgs/telaSobre.png" alt="Tela sobre" width="600"/>
